@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1330, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI</title>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../../css/style.css">
+	<script type="text/javascript" src="../../js/1.10.2.jquery.min.js"></script>
+	<script type="text/javascript" src="../../js/publishing.ui.library.3.0.0.js"></script>
+	<script type="text/javascript" src="../../js/common.js"></script>
+</head>
+<body>
+    <div class="layout">
+        <div class="header">
+			<a href="#none" id="toggleDarkMode" class="bt_g26"><span>왼쪽메뉴 색상 모드 변경</span></a>
+            <div class="headerMenu_right">
+				<ul>
+					<li>
+						<div class="usr_control">
+							<a href="#none" class="bt_usr_control">
+								<dl>
+									<dt>
+										<div class="tag_bu">플랫폼 관리자</div>
+									</dt>
+									<dd>
+										<strong><span id="">홍길동</span> 고객님</strong>
+									</dd>
+								</dl>
+							</a>
+							<div class="usr_control_ly" style="display:;">
+								<ul>
+									<li><a href="#none">내정보</a></li>
+									<li><a href="#none">메뉴얼보기</a></li>
+									<li><a href="#none">로그아웃</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+        </div>
+        <div class="sidebar">
+            <div class="logo">
+				<img src="../../img/common/content_logo_img.png" alt="Bizplay 로고" />
+			</div>
+            <ul class="menu">
+                <li>
+                    <a href="javascript:void(0);" class="toggle">가맹점 관리<span class="indicator"></span></a>
+                    <ul class="submenu open">
+                        <li><a href="javascript:void(0);">메뉴1</a></li>
+                        <li><a href="javascript:void(0);">메뉴2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="toggle">상품권 관리<span class="indicator"></span></a>
+                    <ul class="submenu">
+                        <li><a href="javascript:void(0);">메뉴1</a></li>
+                        <li><a href="javascript:void(0);">메뉴2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="toggle">카드 관리<span class="indicator"></span></a>
+                    <ul class="submenu">
+                        <li><a href="javascript:void(0);">메뉴1</a></li>
+                        <li><a href="javascript:void(0);">메뉴2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="toggle">고객 관리<span class="indicator"></span></a>
+                    <ul class="submenu">
+                        <li><a href="javascript:void(0);">이용기관</a></li>
+                        <li><a href="javascript:void(0);">발행처</a></li>
+                        <li><a href="javascript:void(0);">판매처</a></li>
+                        <li><a href="javascript:void(0);">기업구매 법인</a></li>
+                        <li class="pl-top"><a href="javascript:void(0);">메뉴명이 길어서 한 줄에 안들어가는 경우</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="toggle">인센티브 관리<span class="indicator"></span></a>
+                    <ul class="submenu">
+                        <li><a href="javascript:void(0);">메뉴1</a></li>
+                        <li><a href="javascript:void(0);">메뉴2</a></li>
+                    </ul>
+                </li>
+				<li>
+                    <a href="javascript:void(0);" class="toggle">메뉴명 길어서 한줄에 안들어가는 경우<span class="indicator"></span></a>
+                    <ul class="submenu">
+                        <li><a href="javascript:void(0);">메뉴1</a></li>
+                        <li><a href="javascript:void(0);">메뉴2</a></li>
+                    </ul>
+                </li>
+				<li>
+                    <a href="javascript:void(0);" class="toggle">접근관리<span class="indicator"></span></a>
+                    <ul class="submenu">
+                        <li><a href="javascript:void(0);">메뉴1</a></li>
+                        <li><a href="javascript:void(0);">메뉴2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+		<!-- 컨텐츠 영역 가이드 [S]-->
+        <div class="content">
+            <section class="guide01">
+				<div class="tit_wrap">
+					<h3>타이틀</h3>
+					<div class="right">
+						<span class="g_df">Admin &gt; 이용내용 &gt; 걸재내역</span>
+					</div>
+				</div>
+				<h4>어떠어떠한것을 설정하는 페이지 입니다</h4>
+            </section>
+			<section class="guide02">
+				<div class="guide_tit">REGULAR 버튼</div>
+				<a href="#none" class="bt_g36"><span>기본 버튼</span></a>
+				<a href="#none" class="bt_bu36"><span>컨펌 버튼</span></a>
+				<a href="#none" class="bt_bl36"><span>컨펌 버튼</span></a>
+				<a href="#none" class="bt_g36 disable"><span>비활성 버튼</span></a>
+				
+				<a href="#none" class="bt_w36 ic_refresh"><span>아이콘 버튼</span></a>
+				<a href="#none" class="bt_w36"><span>라인 버튼</span></a>
+
+				<div class="guide_tit">SMALL 버튼</div>
+				<a href="#none" class="bt_g26"><span>테이블 버튼</span></a>
+				<a href="#none" class="bt_w26"><span>테이블 안 라인 버튼</span></a>
+				<a href="#none" class="bt_w26 disabled"><span>테이블 안 라인 버튼</span></a>
+
+				<div class="guide_tit">SEARCH 버튼</div>
+				<div class="srchBx_control srch_control_active">
+					<label for="">
+						<a href="#none" class="bt_srch2"><span class="blind">검색</span></a>
+						<input type="text" placeholder="검색어를 입력하세요.">
+						<a href="#none" class="bt_clear"><span class="blind">초기화</span></a>
+					</label>
+				</div>
+				<div class="srchBx_control">
+					<a href="#none" class="bt_srch"><span class="blind">검색</span></a>
+				</div>
+				
+				<div class="guide_tit new_type">TEXT_INPUT</div>
+				<div class="input_text_style">
+					<label for="">
+						<input class="input_clear_st" type="text" placeholder="검색어를 입력하세요.">
+						<a href="#none" class="bt_clear"><span class="blind">초기화</span></a>
+					</label>
+				</div>
+				<div class="guide_tit new_type">TOGGLE 버튼</div>
+				<div class="toggle_switch">
+					<input type="checkbox" id="toggle1" class="toggle_input">
+					<label for="toggle1" class="toggle_label">
+						<span class="toggle_circle"></span>
+					</label>
+					<span class="toggle_text off">Off</span>
+					<span class="toggle_text on">On</span>
+				</div>
+				<div class="toggle_switch on">
+					<input type="checkbox" id="toggle2" class="toggle_input" checked>
+					<label for="toggle2" class="toggle_label">
+						<span class="toggle_circle"></span>
+					</label>
+					<span class="toggle_text off">Off</span>
+					<span class="toggle_text on">On</span>
+				</div>
+				  
+			</section>
+			<section class="guide03">
+				<div class="guide_tit new_type">TAG</div>
+				<div class="tag_bu">플랫폼 관리자</div>
+				<div class="tag_pl">발행처 관리자</div>
+				<div class="tag_pk">고객센터</div>
+				<div class="tag_gr">카드 운용사</div>
+				<div class="tag_su">권한2</div>
+			</section>
+			<section class="guide04">
+				<div class="guide_tit">CHECK BOX</div>
+				<form>
+					
+					<div class="chkBox_wrap">	
+						<div class="input_flex">
+							<label for="checkbox1" class="input_pos_rel">
+								<input type="checkbox" class="input_cb" id="checkbox1" name="terms[]" value="aaa"><i></i>
+								<span>[필수] 전자 금융거래 이용약관</span>
+							</label>
+							<label for="checkbox2" class="input_pos_rel">
+								<input type="checkbox" class="input_cb" id="checkbox2" name="terms[]" value="bbb" checked><i></i>
+								<span>[필수] 전자 금융거래 이용약관</span>
+							</label>
+							<label for="checkbox3" class="input_pos_rel">
+								<input type="checkbox" class="input_cb" id="checkbox3" name="terms[]" value="ccc" disabled><i></i>
+								<span>[필수] 전자 금융거래 이용약관</span>
+							</label>
+						</div>
+						<div class="chkBx">
+							<label for="radio1">
+								<input type="radio" id="radio1" name="radioGroup"><i></i>
+								<span>기본형 (통합형)</span>
+							</label>
+						</div>
+						<div class="input_text_style">
+							<label for="">
+								<input class="input_clear_st" type="text" placeholder="검색어를 입력하세요.">
+								<a href="#none" class="bt_clear" style="display: none;"><span class="blind">초기화</span></a>
+							</label>
+						</div>
+						<div class="cnt_align">
+							<div class="comboBx_control" style="width:127px;">
+								<a href="#none" class="bt_combo">법인카드명 전체</a>
+								<div class="combo_ly">
+									<ul>
+										<li><a href="#none">전체</a></li>
+										<li><a href="#none">웹케시 임직원전용 법인카드 123</a></li>
+										<li><a href="#none">웹케시 법인카드</a></li>
+										<li><a href="#none">비플 법인카드</a></li>
+										<li><a href="#none">비플 식권카드</a></li>
+										<li><a href="#none">웹케시 임직원전용카드</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<a href="#none" class="bt_g36"><span>기본 버튼</span></a>
+					</div>
+				</form>				  
+				<div class="guide_tit">RADIO BOX</div>
+				<form>
+					<div class="chkBox_wrap">					
+						<div class="chkBx">
+							<label for="radio1">
+								<input type="radio" id="radio1" name="radioGroup"><i></i>
+								<span>기본형 (통합형)</span>
+							</label>
+						</div>
+						<div class="chkBx">
+							<label for="radio2">
+								<input type="radio" id="radio2" name="radioGroup" checked><i></i>
+								<span>식권 전용</span>
+							</label>
+						</div>
+						<div class="chkBx disable">
+							<label for="radio3">
+								<input type="radio" id="radio3" name="radioGroup" disabled><i></i>
+								<span>복지 전용</span>
+							</label>
+						</div>
+					</div>
+				</form>
+			</section>
+			<section class="guide05">
+				<div class="guide_tit">DATE</div>
+				<div class="calendar_control" style="width:120px;">
+					<label for="">
+						<input type="text" value="YYYY-MM-DD" placeholder="" id="">
+					</label>
+					<a href="#none" class="bt_calendar">달력</a>
+				</div>
+			</section>
+			<section class="guide06">
+				<div class="guide_tit">TABS</div>
+				<div class="tabs_header type2 mgt20">
+					<ul class="cboth">
+						<li class="on"><a href="#none"><span>사업장별</span></a></li>
+						<li><a href="#none"><span>법인카드별</span></a></li>
+						<li><a href="#none"><span>월별</span></a></li>
+					</ul>
+				</div>
+			</section>
+			
+			<section class="guide07">
+				<div class="filter_wrap mgt30">
+					<div class="left cboth">
+						<div class="cnt_align">
+							<div class="comboBx_control" style="width:115px;">
+								<a href="#none" class="bt_combo">부서 전체</a>
+								<div class="combo_ly">
+									<ul>
+										<li><a href="#none">부서 전체</a></li>
+										<li><a href="#none">부서 전체</a></li>
+										<li><a href="#none">부서 전체</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="cnt_align">
+							<div class="comboBx_control" style="width:127px;">
+								<a href="#none" class="bt_combo">법인카드명 전체</a>
+								<div class="combo_ly">
+									<ul>
+										<li><a href="#none">전체</a></li>
+										<li><a href="#none">웹케시 임직원전용 법인카드 123</a></li>
+										<li><a href="#none">웹케시 법인카드</a></li>
+										<li><a href="#none">비플 법인카드</a></li>
+										<li><a href="#none">비플 식권카드</a></li>
+										<li><a href="#none">웹케시 임직원전용카드</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<a href="#none" class="bt_g30 ic_download"><span>엑셀다운</span></a>
+					</div>
+					<div class="right">
+						<div class="cnt_align">
+							<div class="srchBx_control srch_control_active">
+								<label for="">
+									<a href="#none" class="bt_srch2"><span class="blind">검색</span></a>
+									<input type="text" placeholder="검색어를 입력하세요.">
+									<a href="#none" class="bt_clear"><span class="blind">초기화</span></a>
+								</label>
+								<a href="#none" class="bt_srch"><span class="blind">검색</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tbl_list rowCellOver">
+					<table>
+						<caption></caption>
+						<colgroup>
+						<col style="width:60px;">
+						<col style="width:140px;">
+						<col style="width:140px;">
+						<col style="width:140px;">
+						<col style="width:192px;">
+						<col style="width:140px;">
+						<col style="width:95px;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th><div><p>번호</p></div></th>
+								<th><div><p>그룹 ID</p></div></th>
+								<th><div><p>그룹명</p></div></th>
+								<th><div><p>그룹멤버수</p></div></th>
+								<th><div><p>사업장</p></div></th>
+								<th><div><p>그룹지급카드수</p></div></th>
+								<th><div><p>그룹등록일자</p></div></th>
+							</tr>
+						</thead>
+						<tfoot style="display:none;">
+							<tr>
+								<td colspan="7">
+									<div class="no_infor">
+										<p>사용 이력이 없습니다.</p>
+									</div>
+								</td>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr>
+								<td><div class="tac"><p>100</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536578</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>2</p></div></td>
+								<td><div><p>2022.09.08</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>99</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536577</a></p></div></td>
+								<td><div><p>마케팅TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>2</p></div></td>
+								<td><div><p>2022.09.08</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>98</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536576</a></p></div></td>
+								<td><div><p>멘토링</p></div></td>
+								<td><div><p>10명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>2</p></div></td>
+								<td><div><p>2022.06.23</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>97</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536575</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>1</p></div></td>
+								<td><div><p>2022.07.25</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>96</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536574</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>1</p></div></td>
+								<td><div><p>2022.05.25</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>95</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536573</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>1</p></div></td>
+								<td><div><p>2022.06.01</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>94</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536572</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>2</p></div></td>
+								<td><div><p>2022.04.08</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>93</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536571</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>2</p></div></td>
+								<td><div><p>2022.01.02</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>92</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536570</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>1</p></div></td>
+								<td><div><p>미동의</p></div></td>
+							</tr>
+							<tr>
+								<td><div class="tac"><p>91</p></div></td>
+								<td><div><p><a href="#none" class="tx_link">2536569</a></p></div></td>
+								<td><div><p>법인카드TF</p></div></td>
+								<td><div><p>4명</p></div></td>
+								<td><div><p>웹케시</p></div></td>
+								<td><div><p>1</p></div></td>
+								<td><div><p>미동의</p></div></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- Paging wrap -->
+				<div class="paging_wrap">
+					<div class="left">
+						<div class="comboBx_control">
+							<a href="#none" class="bt_combo">10개 <span>보기</span></a>
+							<div class="combo_ly" style="max-height:110px;">
+								<ul>
+									<li><a href="#none">10개 <span>보기</span></a></li>
+									<li><a href="#none">20개 <span>보기</span></a></li>
+									<li><a href="#none">30개 <span>보기</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- pagination -->
+					<div class="paging">
+						<a href="#none" class="bt_pag_cntr first disable"><span class="blind">first</span></a>
+						<a href="#none" class="bt_pag_cntr prev disable"><span class="blind">previous</span></a>
+						<a href="#none" class="bt_pag_cntr first"><span class="blind">first</span></a>
+						<a href="#none" class="bt_pag_cntr prev"><span class="blind">previous</span></a>
+						<span class="pag_num">
+							<a href="#none" class="on">1</a><a href="#none">2</a><a href="#none">3</a><a href="#none">4</a><a href="#none">5</a><!--<a href="#none">6</a><a href="#none">7</a><a href="#none">8</a><a href="#none">9</a><a href="#none">10</a>--><span class="pag_dot">...</span><a href="#none">9,999</a>
+						</span>
+						<a href="#none" class="bt_pag_cntr next"><span class="blind">next</span></a>
+						<a href="#none" class="bt_pag_cntr last"><span class="blind">last</span></a>
+						<a href="#none" class="bt_pag_cntr next disable"><span class="blind">next</span></a>
+						<a href="#none" class="bt_pag_cntr last disable"><span class="blind">last</span></a>
+					</div>
+					<!-- //pagination -->
+					<div class="right">
+						<a href="#none" class="bt_g30 ic_download"><span>다운로드</span></a>
+					</div>
+				</div>
+				<!-- //Paging wrap -->
+			</section>
+        </div>
+		<!-- 컨텐츠 영역 가이드 [E]-->
+    </div>
+
+    <script>
+		// 좌측메뉴 LNB, 상단 정보 on 부분
+        $(document).ready(function () {
+			// 초기 설정: 첫 번째 1뎁스 메뉴와 서브메뉴 활성화
+			var $firstMenu = $(".menu > li").first();
+			$firstMenu.addClass("active_parent"); // 첫 번째 메뉴 활성화
+			$firstMenu.find(".submenu").addClass("open").show(); 
+			$firstMenu.find(".toggle .indicator").addClass("open"); 
+			$firstMenu.find(".submenu li a").first().addClass("active");
+			// 1뎁스 메뉴 클릭 이벤트
+			$(".menu > li > a.toggle").on("click", function (e) {
+				e.preventDefault();
+
+				var $currentSubmenu = $(this).next(".submenu");
+				var $allSubmenus = $(".submenu");
+				var $indicator = $(this).find(".indicator");
+				var $parentLi = $(this).closest("li");
+
+				// 모든 서브메뉴 닫기
+				$allSubmenus.removeClass("open").slideUp();
+				$(".menu > li > a.toggle .indicator").removeClass("open");
+				$(".menu > li").removeClass("active_parent");
+				// 현재 클릭한 서브메뉴가 닫혀 있으면 열기
+				if (!$currentSubmenu.hasClass("open")) {
+					$currentSubmenu.addClass("open").slideDown();
+					$indicator.addClass("open");
+					$parentLi.addClass("active_parent");
+				}
+			});
+			// 2뎁스 메뉴 클릭 이벤트
+			$(".submenu li a").on("click", function (e) {
+				e.preventDefault();
+
+				var $parentLi = $(this).closest("li");
+				var $allLinks = $(".submenu li a");
+
+				// 모든 링크에서 active 클래스 제거
+				$allLinks.removeClass("active");
+				$(this).addClass("active");
+				$(".menu > li").removeClass("active_parent");
+				$(this).closest(".submenu").closest("li").addClass("active_parent");
+			});
+
+
+			//상단 정보 on 부분
+			$(".bt_usr_control").click(function (e) {
+				e.preventDefault();
+
+				var $usrControlLy = $(this).siblings(".usr_control_ly");
+				var isVisible = $usrControlLy.is(":visible");
+
+				// 모든 메뉴 닫기
+				$(".usr_control_ly").slideUp(100);
+				$(".bt_usr_control").removeClass("on");
+
+				if (!isVisible) {
+				// 현재 클릭한 메뉴 열기
+				$usrControlLy.slideDown(100);
+				$(this).addClass("on");
+				}
+			});
+			// 다른 곳 클릭 시 닫기
+			$(document).click(function (e) {
+				if (!$(e.target).closest(".usr_control").length) {
+				$(".usr_control_ly").slideUp(100);
+				$(".bt_usr_control").removeClass("on");
+				}
+			});
+
+			//다크 모드 왼쪽 메뉴
+			$('#toggleDarkMode').click(function () {
+				$('body').toggleClass('dark_mode');
+			});
+			
+			// 토글 스위치의 상태 변경 이벤트 처리
+			$('.toggle_switch .toggle_input').change(function () {
+				const $toggleSwitch = $(this).closest('.toggle_switch');
+				if ($(this).is(':checked')) {
+				// ON 상태
+				$toggleSwitch.removeClass('off').addClass('on');
+				console.log('현재 상태: ON (ID: ' + $(this).attr('id') + ')');
+				} else {
+				// OFF 상태
+				$toggleSwitch.removeClass('on').addClass('off');
+				console.log('현재 상태: OFF (ID: ' + $(this).attr('id') + ')');
+				}
+			});
+
+			// 초기 상태 설정
+			$('.toggle_switch .toggle_input').each(function () {
+				const $toggleSwitch = $(this).closest('.toggle_switch');
+				if ($(this).is(':checked')) {
+				$toggleSwitch.addClass('on').removeClass('off');
+				} else {
+				$toggleSwitch.addClass('off').removeClass('on');
+				}
+			});
+
+			//input 텍스트 초기화 버튼
+			$(".input_clear_st").each(function () {
+				const $input = $(this);
+				const $clearBtn = $input.siblings(".bt_clear");
+			
+				// 입력 시 clear 버튼 표시
+				$input.on("input", function () {
+					if ($input.val().length > 0) {
+					$clearBtn.show(); 
+					} else {
+					$clearBtn.hide(); 
+					}
+				});	  
+				// 포커스 시 clear 버튼 표시
+				$input.on("focus", function () {
+					if ($input.val().length > 0) {
+					$clearBtn.show();
+					}
+				});	  
+				// 포커스 아웃 시 clear 버튼 숨김
+				$input.on("blur", function () {
+					setTimeout(() => $clearBtn.hide(), 200); 
+				});	  
+				// Clear 버튼 클릭 시
+				$clearBtn.on("click", function (e) {
+					e.preventDefault();
+					$input.val(""); 
+					$clearBtn.hide(); 
+					$input.focus(); 
+				});
+			});
+		});
+    </script>
+</body>
+</html>
